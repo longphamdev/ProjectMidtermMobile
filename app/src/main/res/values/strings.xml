@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MoringRoutineWorkout</string>
-    <string name="next">NEXT</string>
+    <string name="next">GET STARTED</string>
+    <string name="welcome_to_app">WELCOME</string>
 </resources>
