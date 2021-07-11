@@ -29,7 +29,8 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = new Intent(this,MainActivity3.class);
         double message1 = Double.parseDouble(et1.getText().toString());
         double message2 = Double.parseDouble(et2.getText().toString());
-        double temp2 =message2/(message1*2/100);
+        double temp3=message1/100;
+        double temp2 =message2/(temp3*temp3);
         String temp="";
         if(temp2<18.5) {
             temp = "Your BMI Is: " + String.valueOf(String.format("%.1f", temp2)) + " You Are Underweght";
