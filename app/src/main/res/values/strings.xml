@@ -2,4 +2,56 @@
     <string name="app_name">MoringRoutineWorkout</string>
     <string name="next">GET STARTED</string>
     <string name="welcome_to_app">WELCOME</string>
+
+    <string-array name="ex_name_weight">
+        <item>JUMPING SQUATS</item>
+        <item>BUTT BRIDGE</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HIGH STEPPING</item>
+        <item>PUSH-UPS</item>
+        <item>REVERSE CRUNCHES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+        <item>SQUATS</item>
+    </string-array>
+
+    <string-array name="time_weight">
+        <item>00:30</item>
+        <item>00:45</item>
+        <item>00:30</item>
+        <item>00:30</item>
+        <item>x10</item>
+        <item>x16</item>
+        <item>00:30</item>
+        <item>00:30</item>
+        <item>x16</item>
+    </string-array>
+
+    <string-array name="ex_name_height">
+        <item>CALF RAISE WITH SPLAYED FOOT</item>
+        <item>COBRA STRETCH</item>
+        <item>FORWARD SPINE STRETCH</item>
+        <item>BUTT BRIDGE</item>
+        <item>CALF STRETCH RIGHT</item>
+        <item>CALF STRETCH LEFT</item>
+        <item>JUMPING SQUATS</item>
+        <item>GLUTE KICKBACKS LEFT</item>
+        <item>GLUTE KICKBACKS RIGHT</item>
+        <item>STANDING BACK STRETCHES</item>
+        <item>JUMPING JACKS</item>
+    </string-array>
+
+    <string-array name="time_height">
+        <item>00:30</item>
+        <item>00:45</item>
+        <item>00:45</item>
+        <item>00:45</item>
+        <item>00:45</item>
+        <item>00:45</item>
+        <item>00:30</item>
+        <item>00:45</item>
+        <item>00:45</item>
+        <item>00:45</item>
+        <item>00:45</item>
+    </string-array>
 </resources>
