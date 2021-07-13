@@ -11,26 +11,26 @@
         android:id="@+id/editText_1"
         android:layout_width="289dp"
         android:layout_height="45dp"
-        android:background="@color/textView"
-        android:hint="Enter Your Height"
+        android:background="@color/grey"
+        android:hint="Enter Your Height (cm)"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/editText_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794"/>
+        app:layout_constraintVertical_bias="0.591" />
 
     <EditText
         android:id="@+id/editText_2"
         android:layout_width="289dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="120dp"
-        android:background="@color/textView"
-        android:hint="Enter Your Weight"
+        android:layout_marginBottom="248dp"
+        android:background="@color/grey"
+        android:hint="Enter Your Weight (kg)"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/button_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_1"

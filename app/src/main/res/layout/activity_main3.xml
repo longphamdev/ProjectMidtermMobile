@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity4">
+    tools:context=".MainActivity3">
 
     <TextView
         android:id="@+id/text_3"
@@ -29,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="140dp"
         android:background="@drawable/custom_button"
+        android:onClick="goToActivity5"
         android:text="Improve Height"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,6 +44,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="140dp"
         android:background="@drawable/custom_button"
+        android:onClick="goToActivity4"
         android:text="Improve Weight"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,7 +52,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/textView_2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        />
 
     <TextView
         android:id="@+id/textView_2"

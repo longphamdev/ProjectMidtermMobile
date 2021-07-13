@@ -8,6 +8,8 @@
     <color name="red">#E91E63</color>
     <color name="startColor1">#00334c</color>
     <color name="textView">#FFF8DC</color>
+    <color name="orange">#FFA700</color>
+    <color name="yellow">#FDFE02</color>
 
-
+    <color name="green2">#00FF00</color>
 </resources>
